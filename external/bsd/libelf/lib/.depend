@@ -1,0 +1,1000 @@
+elf_begin.ln elf_begin.go elf_begin.pico elf_begin.po elf_begin.o: /usr/src/external/bsd/libelf/dist/elf_begin.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/mman.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/include/sys/null.h /usr/include/ar.h /usr/include/err.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/src/external/bsd/libelf/dist/libelf.h \
+  /usr/include/sys/queue.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/exec_elf.h \
+  /usr/include/machine/elf_machdep.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h /usr/include/stdlib.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_cntl.ln elf_cntl.go elf_cntl.pico elf_cntl.po elf_cntl.o: /usr/src/external/bsd/libelf/dist/elf_cntl.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_data.ln elf_data.go elf_data.pico elf_data.po elf_data.o: /usr/src/external/bsd/libelf/dist/elf_data.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/include/stdlib.h /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_end.ln elf_end.go elf_end.pico elf_end.po elf_end.o: /usr/src/external/bsd/libelf/dist/elf_end.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/mman.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/ansi.h \
+  /usr/include/assert.h /usr/include/sys/null.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/exec_elf.h \
+  /usr/include/machine/elf_machdep.h /usr/include/stdlib.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_errmsg.ln elf_errmsg.go elf_errmsg.pico elf_errmsg.po elf_errmsg.o: /usr/src/external/bsd/libelf/dist/elf_errmsg.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_errno.ln elf_errno.go elf_errno.pico elf_errno.po elf_errno.o: /usr/src/external/bsd/libelf/dist/elf_errno.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_fill.ln elf_fill.go elf_fill.pico elf_fill.po elf_fill.o: /usr/src/external/bsd/libelf/dist/elf_fill.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_flag.ln elf_flag.go elf_flag.pico elf_flag.po elf_flag.o: /usr/src/external/bsd/libelf/dist/elf_flag.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_getarhdr.ln elf_getarhdr.go elf_getarhdr.pico elf_getarhdr.po elf_getarhdr.o: /usr/src/external/bsd/libelf/dist/elf_getarhdr.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_getarsym.ln elf_getarsym.go elf_getarsym.pico elf_getarsym.po elf_getarsym.o: /usr/src/external/bsd/libelf/dist/elf_getarsym.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_getbase.ln elf_getbase.go elf_getbase.pico elf_getbase.po elf_getbase.o: /usr/src/external/bsd/libelf/dist/elf_getbase.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_getident.ln elf_getident.go elf_getident.pico elf_getident.po elf_getident.o: /usr/src/external/bsd/libelf/dist/elf_getident.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ar.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_hash.ln elf_hash.go elf_hash.pico elf_hash.po elf_hash.o: /usr/src/external/bsd/libelf/dist/elf_hash.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h
+elf_kind.ln elf_kind.go elf_kind.pico elf_kind.po elf_kind.o: /usr/src/external/bsd/libelf/dist/elf_kind.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_memory.ln elf_memory.go elf_memory.pico elf_memory.po elf_memory.o: /usr/src/external/bsd/libelf/dist/elf_memory.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ar.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_next.ln elf_next.go elf_next.pico elf_next.po elf_next.o: /usr/src/external/bsd/libelf/dist/elf_next.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ar.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_phnum.ln elf_phnum.go elf_phnum.pico elf_phnum.po elf_phnum.o: /usr/src/external/bsd/libelf/dist/elf_phnum.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ar.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_rand.ln elf_rand.go elf_rand.pico elf_rand.po elf_rand.o: /usr/src/external/bsd/libelf/dist/elf_rand.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ar.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_rawfile.ln elf_rawfile.go elf_rawfile.pico elf_rawfile.po elf_rawfile.o: /usr/src/external/bsd/libelf/dist/elf_rawfile.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_scn.ln elf_scn.go elf_scn.pico elf_scn.po elf_scn.o: /usr/src/external/bsd/libelf/dist/elf_scn.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_shnum.ln elf_shnum.go elf_shnum.pico elf_shnum.po elf_shnum.o: /usr/src/external/bsd/libelf/dist/elf_shnum.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ar.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_shstrndx.ln elf_shstrndx.go elf_shstrndx.pico elf_shstrndx.po elf_shstrndx.o: /usr/src/external/bsd/libelf/dist/elf_shstrndx.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ar.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_strptr.ln elf_strptr.go elf_strptr.pico elf_strptr.po elf_strptr.o: /usr/src/external/bsd/libelf/dist/elf_strptr.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/param.h \
+  /usr/include/sys/null.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/assert.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/exec_elf.h \
+  /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_update.ln elf_update.go elf_update.pico elf_update.po elf_update.o: /usr/src/external/bsd/libelf/dist/elf_update.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/mman.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/ansi.h \
+  /usr/include/sys/param.h /usr/include/sys/null.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/machine/param.h /usr/include/machine/limits.h \
+  /usr/include/assert.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/exec_elf.h \
+  /usr/include/machine/elf_machdep.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/src/external/bsd/libelf/dist/_libelf.h
+elf_version.ln elf_version.go elf_version.pico elf_version.po elf_version.o: /usr/src/external/bsd/libelf/dist/elf_version.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_cap.ln gelf_cap.go gelf_cap.pico gelf_cap.po gelf_cap.o: /usr/src/external/bsd/libelf/dist/gelf_cap.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_checksum.ln gelf_checksum.go gelf_checksum.pico gelf_checksum.po gelf_checksum.o: /usr/src/external/bsd/libelf/dist/gelf_checksum.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_dyn.ln gelf_dyn.go gelf_dyn.pico gelf_dyn.po gelf_dyn.o: /usr/src/external/bsd/libelf/dist/gelf_dyn.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_ehdr.ln gelf_ehdr.go gelf_ehdr.pico gelf_ehdr.po gelf_ehdr.o: /usr/src/external/bsd/libelf/dist/gelf_ehdr.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_fsize.ln gelf_fsize.go gelf_fsize.pico gelf_fsize.po gelf_fsize.o: /usr/src/external/bsd/libelf/dist/gelf_fsize.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_getclass.ln gelf_getclass.go gelf_getclass.pico gelf_getclass.po gelf_getclass.o: /usr/src/external/bsd/libelf/dist/gelf_getclass.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_move.ln gelf_move.go gelf_move.pico gelf_move.po gelf_move.o: /usr/src/external/bsd/libelf/dist/gelf_move.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_phdr.ln gelf_phdr.go gelf_phdr.pico gelf_phdr.po gelf_phdr.o: /usr/src/external/bsd/libelf/dist/gelf_phdr.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_rel.ln gelf_rel.go gelf_rel.pico gelf_rel.po gelf_rel.o: /usr/src/external/bsd/libelf/dist/gelf_rel.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_rela.ln gelf_rela.go gelf_rela.pico gelf_rela.po gelf_rela.o: /usr/src/external/bsd/libelf/dist/gelf_rela.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_shdr.ln gelf_shdr.go gelf_shdr.pico gelf_shdr.po gelf_shdr.o: /usr/src/external/bsd/libelf/dist/gelf_shdr.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_sym.ln gelf_sym.go gelf_sym.pico gelf_sym.po gelf_sym.o: /usr/src/external/bsd/libelf/dist/gelf_sym.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_syminfo.ln gelf_syminfo.go gelf_syminfo.pico gelf_syminfo.po gelf_syminfo.o: /usr/src/external/bsd/libelf/dist/gelf_syminfo.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_symshndx.ln gelf_symshndx.go gelf_symshndx.pico gelf_symshndx.po gelf_symshndx.o: /usr/src/external/bsd/libelf/dist/gelf_symshndx.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+gelf_xlate.ln gelf_xlate.go gelf_xlate.pico gelf_xlate.po gelf_xlate.o: /usr/src/external/bsd/libelf/dist/gelf_xlate.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf.ln libelf.go libelf.pico libelf.po libelf.o: /usr/src/external/bsd/libelf/dist/libelf.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/param.h \
+  /usr/include/sys/null.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/exec_elf.h \
+  /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_align.ln libelf_align.go libelf_align.pico libelf_align.po libelf_align.o: /usr/src/external/bsd/libelf/dist/libelf_align.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/queue.h \
+  /usr/include/sys/null.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/exec_elf.h \
+  /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_allocate.ln libelf_allocate.go libelf_allocate.pico libelf_allocate.po libelf_allocate.o: /usr/src/external/bsd/libelf/dist/libelf_allocate.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_ar.ln libelf_ar.go libelf_ar.pico libelf_ar.po libelf_ar.o: /usr/src/external/bsd/libelf/dist/libelf_ar.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/ar.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_checksum.ln libelf_checksum.go libelf_checksum.pico libelf_checksum.po libelf_checksum.o: /usr/src/external/bsd/libelf/dist/libelf_checksum.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_convert.ln libelf_convert.go libelf_convert.pico libelf_convert.po libelf_convert.o: libelf_convert.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/assert.h \
+  /usr/include/sys/null.h /usr/src/external/bsd/libelf/dist/libelf.h \
+  /usr/include/sys/queue.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/exec_elf.h \
+  /usr/include/machine/elf_machdep.h /usr/include/string.h \
+  /usr/include/strings.h /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_data.ln libelf_data.go libelf_data.pico libelf_data.po libelf_data.o: /usr/src/external/bsd/libelf/dist/libelf_data.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_ehdr.ln libelf_ehdr.go libelf_ehdr.pico libelf_ehdr.po libelf_ehdr.o: /usr/src/external/bsd/libelf/dist/libelf_ehdr.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_extended.ln libelf_extended.go libelf_extended.pico libelf_extended.po libelf_extended.o: /usr/src/external/bsd/libelf/dist/libelf_extended.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_fsize.ln libelf_fsize.go libelf_fsize.pico libelf_fsize.po libelf_fsize.o: libelf_fsize.c /usr/src/external/bsd/libelf/dist/libelf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_msize.ln libelf_msize.go libelf_msize.pico libelf_msize.po libelf_msize.o: libelf_msize.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/assert.h \
+  /usr/include/sys/null.h /usr/src/external/bsd/libelf/dist/libelf.h \
+  /usr/include/sys/queue.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/exec_elf.h \
+  /usr/include/machine/elf_machdep.h /usr/include/string.h \
+  /usr/include/strings.h /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_phdr.ln libelf_phdr.go libelf_phdr.pico libelf_phdr.po libelf_phdr.o: /usr/src/external/bsd/libelf/dist/libelf_phdr.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/include/stdlib.h /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_shdr.ln libelf_shdr.go libelf_shdr.pico libelf_shdr.po libelf_shdr.o: /usr/src/external/bsd/libelf/dist/libelf_shdr.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/external/bsd/libelf/dist/gelf.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/queue.h /usr/include/sys/null.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h
+libelf_xlate.ln libelf_xlate.go libelf_xlate.pico libelf_xlate.po libelf_xlate.o: /usr/src/external/bsd/libelf/dist/libelf_xlate.c \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/src/external/bsd/libelf/dist/libelf.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/queue.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/exec_elf.h /usr/include/machine/elf_machdep.h \
+  /usr/src/external/bsd/libelf/dist/_libelf.h

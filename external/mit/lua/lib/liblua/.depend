@@ -1,0 +1,643 @@
+lapi.ln lapi.go lapi.pico lapi.po lapi.o: /usr/src/external/mit/lua/dist/src/lapi.c /usr/include/assert.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/null.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/strings.h /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/src/external/mit/lua/dist/src/lapi.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h \
+  /usr/src/external/mit/lua/dist/src/lundump.h \
+  /usr/src/external/mit/lua/dist/src/lvm.h
+lauxlib.ln lauxlib.go lauxlib.pico lauxlib.po lauxlib.o: /usr/src/external/mit/lua/dist/src/lauxlib.c \
+  /usr/include/ctype.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/errno.h \
+  /usr/include/sys/errno.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h
+lbaselib.ln lbaselib.go lbaselib.pico lbaselib.po lbaselib.o: /usr/src/external/mit/lua/dist/src/lbaselib.c \
+  /usr/include/ctype.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdio.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h \
+  /usr/src/external/mit/lua/dist/src/lualib.h
+lcode.ln lcode.go lcode.pico lcode.po lcode.o: /usr/src/external/mit/lua/dist/src/lcode.c /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/lcode.h \
+  /usr/src/external/mit/lua/dist/src/llex.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/lopcodes.h \
+  /usr/src/external/mit/lua/dist/src/lparser.h \
+  /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h
+ldblib.ln ldblib.go ldblib.pico ldblib.po ldblib.o: /usr/src/external/mit/lua/dist/src/ldblib.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h \
+  /usr/src/external/mit/lua/dist/src/lualib.h
+ldebug.ln ldebug.go ldebug.pico ldebug.po ldebug.o: /usr/src/external/mit/lua/dist/src/ldebug.c \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/lapi.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lcode.h \
+  /usr/src/external/mit/lua/dist/src/llex.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/lopcodes.h \
+  /usr/src/external/mit/lua/dist/src/lparser.h \
+  /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h \
+  /usr/src/external/mit/lua/dist/src/lvm.h
+ldo.ln ldo.go ldo.pico ldo.po ldo.o: /usr/src/external/mit/lua/dist/src/ldo.c /usr/include/setjmp.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/setjmp.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/lopcodes.h \
+  /usr/src/external/mit/lua/dist/src/lparser.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h \
+  /usr/src/external/mit/lua/dist/src/lundump.h \
+  /usr/src/external/mit/lua/dist/src/lvm.h
+ldump.ln ldump.go ldump.pico ldump.po ldump.o: /usr/src/external/mit/lua/dist/src/ldump.c \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/math.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/lundump.h
+lfunc.ln lfunc.go lfunc.pico lfunc.po lfunc.o: /usr/src/external/mit/lua/dist/src/lfunc.c \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/math.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h
+lgc.ln lgc.go lgc.pico lgc.po lgc.o: /usr/src/external/mit/lua/dist/src/lgc.c /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h
+linit.ln linit.go linit.pico linit.po linit.o: /usr/src/external/mit/lua/dist/src/linit.c \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lualib.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h
+liolib.ln liolib.go liolib.pico liolib.po liolib.o: /usr/src/external/mit/lua/dist/src/liolib.c \
+  /usr/include/errno.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/errno.h /usr/include/sys/featuretest.h \
+  /usr/include/stdio.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h \
+  /usr/src/external/mit/lua/dist/src/lualib.h
+llex.ln llex.go llex.pico llex.po llex.o: /usr/src/external/mit/lua/dist/src/llex.c /usr/include/ctype.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/locale.h /usr/include/sys/null.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/strings.h /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/llex.h \
+  /usr/src/external/mit/lua/dist/src/lparser.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h
+lmathlib.ln lmathlib.go lmathlib.pico lmathlib.po lmathlib.o: /usr/src/external/mit/lua/dist/src/lmathlib.c \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h /usr/include/stdio.h \
+  /usr/src/external/mit/lua/dist/src/lualib.h
+lmem.ln lmem.go lmem.pico lmem.po lmem.o: /usr/src/external/mit/lua/dist/src/lmem.c \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/math.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h
+loadlib.ln loadlib.go loadlib.pico loadlib.po loadlib.o: /usr/src/external/mit/lua/dist/src/loadlib.c \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h /usr/include/stdio.h \
+  /usr/src/external/mit/lua/dist/src/lualib.h /usr/include/dlfcn.h
+lobject.ln lobject.go lobject.pico lobject.po lobject.o: /usr/src/external/mit/lua/dist/src/lobject.c \
+  /usr/include/ctype.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/lvm.h
+lopcodes.ln lopcodes.go lopcodes.pico lopcodes.po lopcodes.o: /usr/src/external/mit/lua/dist/src/lopcodes.c \
+  /usr/src/external/mit/lua/dist/src/lopcodes.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h /usr/include/math.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h
+loslib.ln loslib.go loslib.pico loslib.po loslib.o: /usr/src/external/mit/lua/dist/src/loslib.c \
+  /usr/include/errno.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/errno.h /usr/include/sys/featuretest.h \
+  /usr/include/locale.h /usr/include/sys/null.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h /usr/include/stdio.h \
+  /usr/src/external/mit/lua/dist/src/lualib.h
+lparser.ln lparser.go lparser.pico lparser.po lparser.o: /usr/src/external/mit/lua/dist/src/lparser.c \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/lcode.h \
+  /usr/src/external/mit/lua/dist/src/llex.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/lopcodes.h \
+  /usr/src/external/mit/lua/dist/src/lparser.h \
+  /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h
+lstate.ln lstate.go lstate.pico lstate.po lstate.o: /usr/src/external/mit/lua/dist/src/lstate.c \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/math.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/llex.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h
+lstring.ln lstring.go lstring.pico lstring.po lstring.o: /usr/src/external/mit/lua/dist/src/lstring.c \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h
+lstrlib.ln lstrlib.go lstrlib.pico lstrlib.po lstrlib.o: /usr/src/external/mit/lua/dist/src/lstrlib.c \
+  /usr/include/ctype.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdio.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h \
+  /usr/src/external/mit/lua/dist/src/lualib.h
+ltable.ln ltable.go ltable.pico ltable.po ltable.o: /usr/src/external/mit/lua/dist/src/ltable.c /usr/include/math.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/strings.h /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h
+ltablib.ln ltablib.go ltablib.pico ltablib.po ltablib.o: /usr/src/external/mit/lua/dist/src/ltablib.c \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/src/external/mit/lua/dist/src/lauxlib.h /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/src/external/mit/lua/dist/src/lualib.h
+ltm.ln ltm.go ltm.pico ltm.po ltm.o: /usr/src/external/mit/lua/dist/src/ltm.c /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h
+lundump.ln lundump.go lundump.pico lundump.po lundump.o: /usr/src/external/mit/lua/dist/src/lundump.c \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/lundump.h
+lvm.ln lvm.go lvm.pico lvm.po lvm.o: /usr/src/external/mit/lua/dist/src/lvm.c /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/ldebug.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/ldo.h \
+  /usr/src/external/mit/lua/dist/src/lfunc.h \
+  /usr/src/external/mit/lua/dist/src/lgc.h \
+  /usr/src/external/mit/lua/dist/src/lopcodes.h \
+  /usr/src/external/mit/lua/dist/src/lstring.h \
+  /usr/src/external/mit/lua/dist/src/ltable.h \
+  /usr/src/external/mit/lua/dist/src/lvm.h
+lzio.ln lzio.go lzio.pico lzio.po lzio.o: /usr/src/external/mit/lua/dist/src/lzio.c /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/src/external/mit/lua/dist/src/lua.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/mit/lua/dist/src/luaconf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/src/external/mit/lua/dist/src/llimits.h \
+  /usr/src/external/mit/lua/dist/src/lmem.h \
+  /usr/src/external/mit/lua/dist/src/lstate.h \
+  /usr/src/external/mit/lua/dist/src/lobject.h \
+  /usr/src/external/mit/lua/dist/src/ltm.h \
+  /usr/src/external/mit/lua/dist/src/lzio.h

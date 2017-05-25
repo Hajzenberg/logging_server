@@ -1,0 +1,93 @@
+bcrypt.ln bcrypt.go bcrypt.pico bcrypt.po bcrypt.o: bcrypt.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/pwd.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h crypt.h \
+  blowfish.c
+crypt-sha1.ln crypt-sha1.go crypt-sha1.pico crypt-sha1.po crypt-sha1.o: crypt-sha1.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/err.h /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  crypt.h
+crypt.ln crypt.go crypt.pico crypt.po crypt.o: crypt.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/pwd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/stdlib.h /usr/include/sys/null.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h crypt.h
+hmac_sha1.ln hmac_sha1.go hmac_sha1.pico hmac_sha1.po hmac_sha1.o: hmac_sha1.c /usr/include/sha1.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h crypt.h hmac.c /usr/include/stdlib.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h
+md5crypt.ln md5crypt.go md5crypt.pico md5crypt.po md5crypt.o: md5crypt.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/md5.h \
+  crypt.h
+pw_gensalt.ln pw_gensalt.go pw_gensalt.pico pw_gensalt.po pw_gensalt.o: pw_gensalt.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/err.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/grp.h \
+  /usr/include/pwd.h /usr/include/util.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/machine/int_fmtio.h \
+  /usr/include/time.h /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/errno.h \
+  /usr/include/sys/errno.h crypt.h
+util.ln util.go util.pico util.po util.o: util.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h crypt.h

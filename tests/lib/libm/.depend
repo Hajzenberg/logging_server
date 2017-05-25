@@ -1,0 +1,459 @@
+t_acos.ln t_acos.o: t_acos.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_asin.ln t_asin.o: t_asin.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_atan.ln t_atan.o: t_atan.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_cbrt.ln t_cbrt.o: t_cbrt.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h
+t_ceil.ln t_ceil.o: t_ceil.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h
+t_cos.ln t_cos.o: t_cos.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_cosh.ln t_cosh.o: t_cosh.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h
+t_erf.ln t_erf.o: t_erf.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h
+t_exp.ln t_exp.o: t_exp.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_fmod.ln t_fmod.o: t_fmod.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/float.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_infinity.ln t_infinity.o: t_infinity.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/float.h /usr/include/stdlib.h
+t_ldexp.ln t_ldexp.o: t_ldexp.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/atf-c/config.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdio.h
+t_log.ln t_log.o: t_log.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/atf-c/config.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdio.h
+t_pow.ln t_pow.o: t_pow.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h
+t_precision.ln t_precision.o: t_precision.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/atf-c/config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/float.h /usr/include/stdlib.h
+t_round.ln t_round.o: t_round.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/float.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_scalbn.ln t_scalbn.o: t_scalbn.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/math.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/float.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h
+t_sin.ln t_sin.o: t_sin.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_sinh.ln t_sinh.o: t_sinh.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h
+t_sqrt.ln t_sqrt.o: t_sqrt.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/float.h /usr/include/stdio.h
+t_tan.ln t_tan.o: t_tan.c /usr/include/atf-c.h /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/atf-c/defs.h \
+  /usr/include/atf-c/tc.h /usr/include/atf-c/tp.h \
+  /usr/include/atf-c/utils.h /usr/include/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/unistd.h /usr/include/math.h \
+  /usr/include/machine/math.h /usr/include/x86/math.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h
+t_tanh.ln t_tanh.o: t_tanh.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/atf-c.h \
+  /usr/include/atf-c/error.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/atf-c/error_fwd.h /usr/include/atf-c/macros.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/atf-c/defs.h /usr/include/atf-c/tc.h \
+  /usr/include/atf-c/tp.h /usr/include/atf-c/utils.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/math.h /usr/include/machine/math.h \
+  /usr/include/x86/math.h /usr/pkg/bin/../lib/clang/3.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h

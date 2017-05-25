@@ -1,0 +1,215 @@
+closure.ln closure.o: /usr/src/external/bsd/byacc/dist/closure.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+error.ln error.o: /usr/src/external/bsd/byacc/dist/error.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+graph.ln graph.o: /usr/src/external/bsd/byacc/dist/graph.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+lalr.ln lalr.o: /usr/src/external/bsd/byacc/dist/lalr.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+lr0.ln lr0.o: /usr/src/external/bsd/byacc/dist/lr0.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+main.ln main.o: /usr/src/external/bsd/byacc/dist/main.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/time.h
+mkpar.ln mkpar.o: /usr/src/external/bsd/byacc/dist/mkpar.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+output.ln output.o: /usr/src/external/bsd/byacc/dist/output.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+reader.ln reader.o: /usr/src/external/bsd/byacc/dist/reader.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+skeleton.ln skeleton.o: /usr/src/external/bsd/byacc/dist/skeleton.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+symtab.ln symtab.o: /usr/src/external/bsd/byacc/dist/symtab.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+verbose.ln verbose.o: /usr/src/external/bsd/byacc/dist/verbose.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h
+warshall.ln warshall.o: /usr/src/external/bsd/byacc/dist/warshall.c \
+  /usr/src/external/bsd/byacc/dist/defs.h \
+  /usr/src/external/bsd/byacc/bin/../include/config.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/stdio.h

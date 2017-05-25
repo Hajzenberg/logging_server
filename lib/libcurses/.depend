@@ -1,0 +1,1558 @@
+acs.ln acs.go acs.pico acs.po acs.o: acs.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h /usr/include/assert.h \
+  /usr/include/locale.h /usr/include/langinfo.h /usr/include/nl_types.h \
+  /usr/include/strings.h /usr/include/string.h
+add_wch.ln add_wch.go add_wch.pico add_wch.po add_wch.o: add_wch.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+add_wchstr.ln add_wchstr.go add_wchstr.pico add_wchstr.po add_wchstr.o: add_wchstr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+addbytes.ln addbytes.go addbytes.pico addbytes.po addbytes.o: addbytes.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+addch.ln addch.go addch.pico addch.po addch.o: addch.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+addchnstr.ln addchnstr.go addchnstr.pico addchnstr.po addchnstr.o: addchnstr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+addnstr.ln addnstr.go addnstr.pico addnstr.po addnstr.o: addnstr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+addwstr.ln addwstr.go addwstr.pico addwstr.po addwstr.o: addwstr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+attributes.ln attributes.go attributes.pico attributes.po attributes.o: attributes.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+background.ln background.go background.pico background.po background.o: background.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+bell.ln bell.go bell.pico bell.po bell.o: bell.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+border.ln border.go border.pico border.po border.o: border.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+box.ln box.go box.pico box.po box.o: box.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h
+cchar.ln cchar.go cchar.pico cchar.po cchar.o: cchar.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+chgat.ln chgat.go chgat.pico chgat.po chgat.o: chgat.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+clear.ln clear.go clear.pico clear.po clear.o: clear.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+clearok.ln clearok.go clearok.pico clearok.po clearok.o: clearok.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+clrtobot.ln clrtobot.go clrtobot.pico clrtobot.po clrtobot.o: clrtobot.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+clrtoeol.ln clrtoeol.go clrtoeol.pico clrtoeol.po clrtoeol.o: clrtoeol.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+color.ln color.go color.pico color.po color.o: color.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+copywin.ln copywin.go copywin.pico copywin.po copywin.o: copywin.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/ctype.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/strings.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+cr_put.ln cr_put.go cr_put.pico cr_put.po cr_put.o: cr_put.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+ctrace.ln ctrace.go ctrace.pico ctrace.po ctrace.o: ctrace.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h
+cur_hash.ln cur_hash.go cur_hash.pico cur_hash.po cur_hash.o: cur_hash.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+curs_set.ln curs_set.go curs_set.pico curs_set.po curs_set.o: curs_set.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+curses.ln curses.go curses.pico curses.po curses.o: curses.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+delch.ln delch.go delch.pico delch.po delch.o: delch.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+deleteln.ln deleteln.go deleteln.pico deleteln.po deleteln.o: deleteln.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+delwin.ln delwin.go delwin.pico delwin.po delwin.o: delwin.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+echo_wchar.ln echo_wchar.go echo_wchar.pico echo_wchar.po echo_wchar.o: echo_wchar.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+echochar.ln echochar.go echochar.pico echochar.po echochar.o: echochar.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+erase.ln erase.go erase.pico erase.po erase.o: erase.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+fileio.ln fileio.go fileio.pico fileio.po fileio.o: fileio.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h /usr/src/lib/libcurses/fileio.h \
+  /usr/include/stdlib.h
+flushok.ln flushok.go flushok.pico flushok.po flushok.o: flushok.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+fullname.ln fullname.go fullname.pico fullname.po fullname.o: fullname.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h
+get_wch.ln get_wch.go get_wch.pico get_wch.po get_wch.o: get_wch.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/stdio.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h /usr/src/lib/libcurses/keymap.h
+get_wstr.ln get_wstr.go get_wstr.pico get_wstr.po get_wstr.o: get_wstr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+getch.ln getch.go getch.pico getch.po getch.o: getch.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/stdio.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h /usr/src/lib/libcurses/keymap.h
+getstr.ln getstr.go getstr.pico getstr.po getstr.o: getstr.c /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+getyx.ln getyx.go getyx.pico getyx.po getyx.o: getyx.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+id_subwins.ln id_subwins.go id_subwins.pico id_subwins.po id_subwins.o: id_subwins.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+idcok.ln idcok.go idcok.pico idcok.po idcok.o: idcok.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+idlok.ln idlok.go idlok.pico idlok.po idlok.o: idlok.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+in_wch.ln in_wch.go in_wch.pico in_wch.po in_wch.o: in_wch.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+in_wchstr.ln in_wchstr.go in_wchstr.pico in_wchstr.po in_wchstr.o: in_wchstr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+inch.ln inch.go inch.pico inch.po inch.o: inch.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+inchstr.ln inchstr.go inchstr.pico inchstr.po inchstr.o: inchstr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+initscr.ln initscr.go initscr.pico initscr.po initscr.o: initscr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+ins_wch.ln ins_wch.go ins_wch.pico ins_wch.po ins_wch.o: ins_wch.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+ins_wstr.ln ins_wstr.go ins_wstr.pico ins_wstr.po ins_wstr.o: ins_wstr.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+insch.ln insch.go insch.pico insch.po insch.o: insch.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+insdelln.ln insdelln.go insdelln.pico insdelln.po insdelln.o: insdelln.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+insertln.ln insertln.go insertln.pico insertln.po insertln.o: insertln.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+insstr.ln insstr.go insstr.pico insstr.po insstr.o: insstr.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+instr.ln instr.go instr.pico instr.po instr.o: instr.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+inwstr.ln inwstr.go inwstr.pico inwstr.po inwstr.o: inwstr.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+keyname.ln keyname.go keyname.pico keyname.po keyname.o: keyname.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+keypad.ln keypad.go keypad.pico keypad.po keypad.o: keypad.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+leaveok.ln leaveok.go leaveok.pico leaveok.po leaveok.o: leaveok.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+line.ln line.go line.pico line.po line.o: line.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/string.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/sys/featuretest.h \
+  /usr/include/strings.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+meta.ln meta.go meta.pico meta.po meta.o: meta.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+move.ln move.go move.pico move.po move.o: move.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+mvwin.ln mvwin.go mvwin.pico mvwin.po mvwin.o: mvwin.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+newwin.ln newwin.go newwin.pico newwin.po newwin.o: newwin.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+nodelay.ln nodelay.go nodelay.pico nodelay.po nodelay.o: nodelay.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+notimeout.ln notimeout.go notimeout.pico notimeout.po notimeout.o: notimeout.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+overlay.ln overlay.go overlay.pico overlay.po overlay.o: overlay.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/ctype.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+overwrite.ln overwrite.go overwrite.pico overwrite.po overwrite.o: overwrite.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/ctype.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/string.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/strings.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+pause.ln pause.go pause.pico pause.po pause.o: pause.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+printw.ln printw.go printw.pico printw.po printw.o: printw.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+putchar.ln putchar.go putchar.pico putchar.po putchar.o: putchar.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+refresh.ln refresh.go refresh.pico refresh.po refresh.o: refresh.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+resize.ln resize.go resize.pico resize.po resize.o: resize.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+scanw.ln scanw.go scanw.pico scanw.po scanw.o: scanw.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h
+screen.ln screen.go screen.pico screen.po screen.o: screen.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+scroll.ln scroll.go scroll.pico scroll.po scroll.o: scroll.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+scrollok.ln scrollok.go scrollok.pico scrollok.po scrollok.o: scrollok.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+setterm.ln setterm.go setterm.pico setterm.po setterm.o: setterm.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/ioctl.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/stdlib.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/termios.h /usr/include/sys/ttydefaults.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h
+standout.ln standout.go standout.pico standout.po standout.o: standout.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+timeout.ln timeout.go timeout.pico timeout.po timeout.o: timeout.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+toucholap.ln toucholap.go toucholap.pico toucholap.po toucholap.o: toucholap.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+touchwin.ln touchwin.go touchwin.pico touchwin.po touchwin.o: touchwin.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h
+tstp.ln tstp.go tstp.pico tstp.po tstp.o: tstp.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/ioctl.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/dkio.h /usr/include/prop/plistref.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/filio.h /usr/include/sys/sockio.h \
+  /usr/include/sys/ioc_net.h /usr/include/minix/ioctl.h \
+  /usr/include/sys/un.h /usr/include/sys/ioc_disk.h \
+  /usr/include/sys/ioc_file.h /usr/include/sys/ioc_memory.h \
+  /usr/include/sys/ioc_tape.h /usr/include/sys/ioc_sound.h \
+  /usr/include/sys/ioc_block.h /usr/include/minix/btrace.h \
+  /usr/include/sys/ioc_fbd.h /usr/include/sys/ioc_fb.h \
+  /usr/include/dev/vndvar.h /usr/include/dev/i2c/i2c_io.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/termios.h \
+  /usr/include/sys/ttydefaults.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/null.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h
+tty.ln tty.go tty.pico tty.po tty.o: tty.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/stdlib.h /usr/include/sys/null.h /usr/include/termios.h \
+  /usr/include/sys/ttycom.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/ttydefaults.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/fcntl.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/time.h \
+  /usr/include/sys/ioctl.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/src/lib/libcurses/curses.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h
+unctrl.ln unctrl.go unctrl.pico unctrl.po unctrl.o: unctrl.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libcurses/unctrl.h \
+  /usr/include/wchar.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h
+underscore.ln underscore.go underscore.pico underscore.po underscore.o: underscore.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/lib/libcurses/curses.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/lib/libcurses/unctrl.h \
+  /usr/src/lib/libcurses/curses_private.h \
+  /usr/src/lib/libterminfo/term.h /usr/src/lib/libterminfo/termcap.h \
+  /usr/include/termios.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/ioccom.h \
+  /usr/include/sys/ttydefaults.h

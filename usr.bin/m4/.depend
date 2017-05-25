@@ -1,0 +1,358 @@
+eval.ln eval.o: eval.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h /usr/include/err.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/errno.h \
+  /usr/include/sys/errno.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h mdef.h stdd.h extern.h pathnames.h
+expr.ln expr.o: expr.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_types.h /usr/include/machine/int_mwgwtypes.h \
+  /usr/include/machine/int_limits.h /usr/include/machine/int_const.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h mdef.h extern.h
+gnum4.ln gnum4.o: gnum4.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/param.h \
+  /usr/include/sys/null.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/wait.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/err.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/paths.h \
+  /usr/include/regex.h /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/stdlib.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h mdef.h stdd.h extern.h
+look.ln look.o: look.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdio.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/string.h \
+  /usr/include/strings.h /usr/src/usr.bin/m4/lib/ohash.h mdef.h stdd.h \
+  extern.h
+main.ln main.o: main.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/assert.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/signal.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/err.h /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/stdio.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/src/usr.bin/m4/lib/ohash.h mdef.h stdd.h \
+  extern.h pathnames.h
+misc.ln misc.o: misc.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/err.h mdef.h \
+  stdd.h extern.h pathnames.h
+ohash_create_entry.ln ohash_create_entry.o: /usr/src/usr.bin/m4/lib/ohash_create_entry.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_delete.ln ohash_delete.o: /usr/src/usr.bin/m4/lib/ohash_delete.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_do.ln ohash_do.o: /usr/src/usr.bin/m4/lib/ohash_do.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_entries.ln ohash_entries.o: /usr/src/usr.bin/m4/lib/ohash_entries.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_enum.ln ohash_enum.o: /usr/src/usr.bin/m4/lib/ohash_enum.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_init.ln ohash_init.o: /usr/src/usr.bin/m4/lib/ohash_init.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_interval.ln ohash_interval.o: /usr/src/usr.bin/m4/lib/ohash_interval.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_lookup_interval.ln ohash_lookup_interval.o: /usr/src/usr.bin/m4/lib/ohash_lookup_interval.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_lookup_memory.ln ohash_lookup_memory.o: /usr/src/usr.bin/m4/lib/ohash_lookup_memory.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_qlookup.ln ohash_qlookup.o: /usr/src/usr.bin/m4/lib/ohash_qlookup.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+ohash_qlookupi.ln ohash_qlookupi.o: /usr/src/usr.bin/m4/lib/ohash_qlookupi.c \
+  /usr/src/usr.bin/m4/lib/ohash_int.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdlib.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/usr.bin/m4/lib/ohash.h
+parser.ln parser.o: parser.c /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h
+strtonum.ln strtonum.o: /usr/src/usr.bin/m4/lib/strtonum.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/sys/featuretest.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h
+tokenizer.ln tokenizer.o: tokenizer.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h parser.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h
+trace.ln trace.o: trace.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h /usr/include/err.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/include/sys/null.h /usr/include/stdlib.h \
+  mdef.h stdd.h extern.h

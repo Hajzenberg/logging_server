@@ -1,0 +1,2997 @@
+base_command.ln base_command.go base_command.pico base_command.po base_command.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/base_command.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/base_command.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/options.hpp \
+  /usr/include/c++/vector /usr/include/c++/__bit_reference \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/parser.hpp \
+  /usr/include/c++/map /usr/include/c++/__tree \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+exceptions.ln exceptions.go exceptions.pico exceptions.po exceptions.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/exceptions.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/exceptions.hpp \
+  /usr/include/c++/stdexcept /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/exception /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+globals.ln globals.go globals.pico globals.po globals.o: /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/globals.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/globals.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+options.ln options.go options.pico options.po options.o: /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/options.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/options.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/vector \
+  /usr/include/c++/__bit_reference /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp
+parser.ln parser.go parser.pico parser.po parser.o: /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/parser.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/parser.hpp \
+  /usr/include/c++/map /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/__tree /usr/include/c++/iterator \
+  /usr/include/c++/type_traits /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/c++/initializer_list /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/exception \
+  /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/stdexcept /usr/include/c++/algorithm \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/c++/string /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/vector /usr/include/c++/__bit_reference \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/config.h /usr/include/getopt.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/c++/cstdlib /usr/include/stdlib.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/auto_array.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/auto_array.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/options.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/locale.h /usr/include/c++/streambuf \
+  /usr/include/c++/locale /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+ui.ln ui.go ui.pico ui.po ui.o: /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/ui.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/ui.hpp \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/string \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/include/sys/ioctl.h /usr/include/sys/ttycom.h \
+  /usr/include/sys/ioccom.h /usr/include/sys/dkio.h \
+  /usr/include/prop/plistref.h /usr/include/sys/filio.h \
+  /usr/include/sys/sockio.h /usr/include/sys/ioc_net.h \
+  /usr/include/minix/ioctl.h /usr/include/sys/un.h \
+  /usr/include/sys/ioc_disk.h /usr/include/sys/ioc_file.h \
+  /usr/include/sys/ioc_memory.h /usr/include/sys/ioc_tape.h \
+  /usr/include/sys/ioc_sound.h /usr/include/sys/ioc_block.h \
+  /usr/include/minix/btrace.h /usr/include/sys/ioc_fbd.h \
+  /usr/include/sys/ioc_fb.h /usr/include/dev/vndvar.h \
+  /usr/include/dev/i2c/i2c_io.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/c++/iostream \
+  /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/globals.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/env.hpp /usr/include/c++/map \
+  /usr/include/c++/__tree \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp \
+  /usr/include/c++/vector /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/table.hpp
+ui_mock.ln ui_mock.go ui_mock.pico ui_mock.po ui_mock.o: /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/ui_mock.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/ui_mock.hpp \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/string \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/vector \
+  /usr/include/c++/__bit_reference /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/cmdline/ui.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/iostream \
+  /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp
+exceptions.ln exceptions.go exceptions.pico exceptions.po exceptions.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/exceptions.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/exceptions.hpp \
+  /usr/include/c++/stdexcept /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/exception /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.hpp \
+  /usr/include/c++/map /usr/include/c++/__tree /usr/include/c++/iterator \
+  /usr/include/c++/initializer_list /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/algorithm /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/c++/string \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/lutok/state.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/keys.hpp \
+  /usr/include/c++/vector /usr/include/c++/__bit_reference \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.hpp \
+  /usr/include/c++/set \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp
+keys.ln keys.go keys.pico keys.po keys.o: /usr/src/external/bsd/kyua-cli/dist/utils/config/keys.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.hpp \
+  /usr/include/c++/map /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/__tree /usr/include/c++/iterator \
+  /usr/include/c++/type_traits /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/c++/initializer_list /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/exception \
+  /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/stdexcept /usr/include/c++/algorithm \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/c++/string /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/lutok/state.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/keys.hpp \
+  /usr/include/c++/vector /usr/include/c++/__bit_reference \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.hpp \
+  /usr/include/c++/set \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp
+lua_module.ln lua_module.go lua_module.pico lua_module.po lua_module.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/lua_module.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/lua_module.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/lutok/state.hpp \
+  /usr/include/lutok/stack_cleaner.hpp /usr/include/lutok/state.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.hpp \
+  /usr/include/c++/map /usr/include/c++/__tree \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/keys.hpp \
+  /usr/include/c++/vector /usr/include/c++/__bit_reference \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.hpp \
+  /usr/include/c++/set \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp
+nodes.ln nodes.go nodes.pico nodes.po nodes.o: /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.hpp \
+  /usr/include/c++/map /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/__tree /usr/include/c++/iterator \
+  /usr/include/c++/type_traits /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/c++/initializer_list /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/exception \
+  /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/stdexcept /usr/include/c++/algorithm \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/c++/set /usr/include/c++/string /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/lutok/state.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/keys.hpp \
+  /usr/include/c++/vector /usr/include/c++/__bit_reference \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp \
+  /usr/include/lutok/state.ipp
+parser.ln parser.go parser.pico parser.po parser.o: /usr/src/external/bsd/kyua-cli/dist/utils/config/parser.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/parser.hpp \
+  /usr/include/c++/memory /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/type_traits /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/typeinfo /usr/include/c++/exception \
+  /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/new /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/iosfwd /usr/include/wchar.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/initializer_list \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/string /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/stdexcept \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/include/lutok/exceptions.hpp /usr/include/lutok/operations.hpp \
+  /usr/include/c++/map /usr/include/c++/__tree /usr/include/c++/vector \
+  /usr/include/c++/__split_buffer /usr/include/lutok/state.hpp \
+  /usr/include/lutok/stack_cleaner.hpp /usr/include/lutok/state.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/keys.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.hpp \
+  /usr/include/c++/set \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/lua_module.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp
+tree.ln tree.go tree.pico tree.po tree.o: /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/tree.hpp \
+  /usr/include/c++/map /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/__tree /usr/include/c++/iterator \
+  /usr/include/c++/type_traits /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/c++/initializer_list /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/exception \
+  /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/stdexcept /usr/include/c++/algorithm \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/c++/string /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/lutok/state.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/keys.hpp \
+  /usr/include/c++/vector /usr/include/c++/__bit_reference \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.hpp \
+  /usr/include/c++/set \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/config/nodes.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp
+datetime.ln datetime.go datetime.pico datetime.po datetime.o: /usr/src/external/bsd/kyua-cli/dist/utils/datetime.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/datetime.hpp \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/ostream /usr/include/c++/ios /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/include/c++/new /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp
+env.ln env.go env.pico env.po env.o: /usr/src/external/bsd/kyua-cli/dist/utils/env.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/env.hpp /usr/include/c++/map \
+  /usr/include/c++/__config /usr/include/sys/endian.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/fd_set.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/c++/__tree \
+  /usr/include/c++/iterator /usr/include/c++/type_traits \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/c++/initializer_list /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/exception \
+  /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/stdexcept /usr/include/c++/algorithm \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/c++/string /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/config.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp
+exceptions.ln exceptions.go exceptions.pico exceptions.po exceptions.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/exceptions.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/exceptions.hpp \
+  /usr/include/c++/stdexcept /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/exception /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple
+formatter.ln formatter.go formatter.pico formatter.po formatter.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/ostream /usr/include/c++/ios /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/__locale \
+  /usr/include/c++/string /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp \
+  /usr/include/c++/vector /usr/include/c++/__split_buffer
+auto_cleaners.ln auto_cleaners.go auto_cleaners.pico auto_cleaners.po auto_cleaners.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/auto_cleaners.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/auto_cleaners.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/interrupts.hpp \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp
+exceptions.ln exceptions.go exceptions.pico exceptions.po exceptions.o: /usr/src/external/bsd/kyua-cli/dist/utils/fs/exceptions.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/exceptions.hpp \
+  /usr/include/c++/stdexcept /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/exception /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream
+lua_module.ln lua_module.go lua_module.pico lua_module.po lua_module.o: /usr/src/external/bsd/kyua-cli/dist/utils/fs/lua_module.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/lua_module.hpp \
+  /usr/include/lutok/state.hpp /usr/include/c++/string \
+  /usr/include/c++/__config /usr/include/sys/endian.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/fd_set.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/dirent.h \
+  /usr/include/sys/dirent.h /usr/include/c++/cerrno /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/lutok/operations.hpp \
+  /usr/include/c++/map /usr/include/c++/__tree \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/c++/vector /usr/include/c++/__bit_reference \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer /usr/include/lutok/state.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+operations.ln operations.go operations.pico operations.po operations.o: /usr/src/external/bsd/kyua-cli/dist/utils/fs/operations.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/operations.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/config.h /usr/include/sys/stat.h \
+  /usr/include/dirent.h /usr/include/sys/dirent.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/c++/sstream \
+  /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/auto_array.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/auto_array.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/env.hpp /usr/include/c++/map \
+  /usr/include/c++/__tree \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp
+path.ln path.go path.pico path.po path.o: /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/ostream \
+  /usr/include/c++/ios /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+operations.ln operations.go operations.pico operations.po operations.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/c++/fstream /usr/include/c++/istream \
+  /usr/include/c++/vector /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/datetime.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp
+memory.ln memory.go memory.pico memory.po memory.o: /usr/src/external/bsd/kyua-cli/dist/utils/memory.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/memory.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/units.hpp \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/istream /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/ostream /usr/include/c++/ios /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/include/c++/new /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/config.h /usr/include/sys/param.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/param.h \
+  /usr/include/sys/sysctl.h /usr/include/sys/proc.h \
+  /usr/include/sys/lwp.h /usr/include/uvm/uvm_param.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdbool.h \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp
+passwd.ln passwd.go passwd.pico passwd.po passwd.o: /usr/src/external/bsd/kyua-cli/dist/utils/passwd.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/passwd.hpp \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/vector \
+  /usr/include/c++/__bit_reference /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer /usr/include/pwd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp
+child.ln child.go child.pico child.po child.o: /usr/src/external/bsd/kyua-cli/dist/utils/process/child.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/child.ipp \
+  /usr/include/c++/cstdlib /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/stdlib.h /usr/include/sys/null.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/child.hpp \
+  /usr/include/c++/istream /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/stdio.h \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/locale.h /usr/include/c++/streambuf \
+  /usr/include/c++/locale /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/include/c++/vector /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/status.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/include/sys/stat.h /usr/include/sys/wait.h /usr/include/fcntl.h \
+  /usr/include/signal.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/c++/cassert /usr/include/assert.h \
+  /usr/include/c++/iostream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/fdstream.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/system.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/interrupts.hpp
+exceptions.ln exceptions.go exceptions.pico exceptions.po exceptions.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/exceptions.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/exceptions.hpp \
+  /usr/include/c++/stdexcept /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/exception /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/cstring \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/mutex /usr/include/c++/__mutex_base \
+  /usr/include/c++/chrono /usr/include/c++/ctime /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/c++/ratio \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream
+fdstream.ln fdstream.go fdstream.pico fdstream.po fdstream.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/fdstream.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/fdstream.hpp \
+  /usr/include/c++/istream /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/ostream /usr/include/c++/ios /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/__locale \
+  /usr/include/c++/string /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/systembuf.hpp
+status.ln status.go status.pico status.po status.o: /usr/src/external/bsd/kyua-cli/dist/utils/process/status.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/status.hpp \
+  /usr/include/c++/utility /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/__tuple /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/__tuple_03 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.ipp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/optional.hpp \
+  /usr/include/c++/ostream /usr/include/c++/ios /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/__locale \
+  /usr/include/c++/string /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/include/sys/wait.h
+system.ln system.go system.pico system.po system.o: /usr/src/external/bsd/kyua-cli/dist/utils/process/system.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/system.hpp \
+  /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h /usr/include/sys/wait.h /usr/include/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h
+systembuf.ln systembuf.go systembuf.pico systembuf.po systembuf.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/systembuf.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/process/systembuf.hpp \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/memory \
+  /usr/include/c++/type_traits /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/new /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/iosfwd /usr/include/wchar.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/initializer_list \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/streambuf /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/stdexcept \
+  /usr/include/c++/mutex /usr/include/c++/__mutex_base \
+  /usr/include/c++/chrono /usr/include/c++/ctime /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/c++/ratio \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/auto_array.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/auto_array.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+sanity.ln sanity.go sanity.pico sanity.po sanity.o: /usr/src/external/bsd/kyua-cli/dist/utils/sanity.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/string \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/config.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/c++/cerrno /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/c++/cstdlib \
+  /usr/include/stdlib.h /usr/include/c++/iostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/c++/ratio \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/minix/mthread.h \
+  /usr/include/minix/config.h /usr/include/minix/sys_config.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/ucontext.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/istream \
+  /usr/include/c++/ostream /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp
+exceptions.ln exceptions.go exceptions.pico exceptions.po exceptions.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/exceptions.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/exceptions.hpp \
+  /usr/include/c++/stdexcept /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/exception /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/cstring \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/mutex /usr/include/c++/__mutex_base \
+  /usr/include/c++/chrono /usr/include/c++/ctime /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/c++/ratio \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream
+interrupts.ln interrupts.go interrupts.pico interrupts.po interrupts.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/interrupts.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/interrupts.hpp \
+  /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/c++/cstdlib /usr/include/c++/__config \
+  /usr/include/stdlib.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/set /usr/include/c++/__tree \
+  /usr/include/c++/iterator /usr/include/c++/type_traits \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/include/c++/initializer_list \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/algorithm \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/include/c++/string /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/programmer.hpp
+misc.ln misc.go misc.pico misc.po misc.o: /usr/src/external/bsd/kyua-cli/dist/utils/signals/misc.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/misc.hpp \
+  /usr/src/external/bsd/kyua-cli/config.h /usr/include/signal.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/signal.h /usr/include/sys/sigtypes.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/c++/cerrno \
+  /usr/include/c++/__config /usr/include/errno.h \
+  /usr/include/sys/errno.h /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/__locale \
+  /usr/include/c++/string /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/c++/ratio \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/minix/mthread.h \
+  /usr/include/minix/config.h /usr/include/minix/sys_config.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/ucontext.h /usr/include/stdlib.h \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/locale.h /usr/include/c++/streambuf \
+  /usr/include/c++/locale /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/exceptions.hpp
+programmer.ln programmer.go programmer.pico programmer.po programmer.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/programmer.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/programmer.hpp \
+  /usr/include/c++/memory /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/type_traits /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/typeinfo /usr/include/c++/exception \
+  /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/new /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/iosfwd /usr/include/wchar.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/initializer_list \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/sigtypes.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/stdexcept \
+  /usr/include/c++/mutex /usr/include/c++/__mutex_base \
+  /usr/include/c++/chrono /usr/include/c++/ctime /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/minix/mthread.h \
+  /usr/include/minix/config.h /usr/include/minix/sys_config.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/ucontext.h /usr/include/stdlib.h \
+  /usr/include/c++/functional /usr/include/c++/__functional_03 \
+  /usr/include/locale.h /usr/include/c++/streambuf \
+  /usr/include/c++/locale /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/signals/exceptions.hpp
+c_gate.ln c_gate.go c_gate.pico c_gate.po c_gate.o: /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/c_gate.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/c_gate.hpp \
+  /usr/include/sqlite3.h /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/database.hpp \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/string /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/cstring \
+  /usr/include/string.h /usr/include/strings.h /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/include/c++/new /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/ostream \
+  /usr/include/c++/ios /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg /usr/include/c++/cstdlib \
+  /usr/include/nl_types.h /usr/include/c++/bitset \
+  /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646
+database.ln database.go database.pico database.po database.o: /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/database.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/database.hpp \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/string /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/cstring \
+  /usr/include/string.h /usr/include/strings.h /usr/include/c++/cstdio \
+  /usr/include/c++/cwchar /usr/include/c++/cwctype \
+  /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/include/c++/new /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/ostream \
+  /usr/include/c++/ios /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 /usr/include/sqlite3.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/statement.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/statement.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/transaction.hpp
+exceptions.ln exceptions.go exceptions.pico exceptions.po exceptions.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/exceptions.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/exceptions.hpp \
+  /usr/include/c++/stdexcept /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/exception /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/memory \
+  /usr/include/c++/typeinfo /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/sqlite3.h /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg /usr/include/c++/cstdlib \
+  /usr/include/nl_types.h /usr/include/c++/bitset \
+  /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/c_gate.hpp
+statement.ln statement.go statement.pico statement.po statement.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/statement.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/statement.hpp \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/string /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/iosfwd /usr/include/wchar.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/include/c++/new /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 /usr/include/sqlite3.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/c++/map \
+  /usr/include/c++/__tree /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg /usr/include/c++/cstdlib \
+  /usr/include/nl_types.h /usr/include/c++/bitset \
+  /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/c_gate.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/exceptions.hpp
+transaction.ln transaction.go transaction.pico transaction.po transaction.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/transaction.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/transaction.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/shared_ptr.hpp \
+  /usr/include/c++/ciso646 /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/memory /usr/include/c++/type_traits \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/typeinfo /usr/include/c++/exception \
+  /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/new /usr/include/c++/utility /usr/include/c++/__tuple \
+  /usr/include/c++/__tuple_03 /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/iosfwd /usr/include/wchar.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/initializer_list \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/stdexcept \
+  /usr/include/c++/mutex /usr/include/c++/__mutex_base \
+  /usr/include/c++/chrono /usr/include/c++/ctime /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h /usr/include/c++/ratio \
+  /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/logging/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/database.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/statement.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sqlite/statement.hpp
+stream.ln stream.go stream.pico stream.po stream.o: /usr/src/external/bsd/kyua-cli/dist/utils/stream.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/stream.hpp \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/istream /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/include/c++/sstream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+exceptions.ln exceptions.go exceptions.pico exceptions.po exceptions.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/include/c++/stdexcept /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/exception /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h
+operations.ln operations.go operations.pico operations.po operations.o: \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/string \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/vector \
+  /usr/include/c++/__bit_reference /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer /usr/include/c++/sstream \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp
+table.ln table.go table.pico table.po table.o: /usr/src/external/bsd/kyua-cli/dist/utils/text/table.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/table.hpp \
+  /usr/include/c++/cstddef /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/c++/string \
+  /usr/include/c++/iosfwd /usr/include/wchar.h \
+  /usr/include/machine/wchar_limits.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/vector \
+  /usr/include/c++/__bit_reference /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/__split_buffer /usr/include/c++/sstream \
+  /usr/include/c++/ostream /usr/include/c++/ios \
+  /usr/include/c++/__locale /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/system_error \
+  /usr/include/c++/cerrno /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/istream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp
+templates.ln templates.go templates.pico templates.po templates.o: /usr/src/external/bsd/kyua-cli/dist/utils/text/templates.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/templates.hpp \
+  /usr/include/c++/istream /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/ostream /usr/include/c++/ios /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/machine/wchar_limits.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/c++/__locale \
+  /usr/include/c++/string /usr/include/c++/cstring /usr/include/string.h \
+  /usr/include/strings.h /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/c++/new \
+  /usr/include/c++/limits /usr/include/c++/__undef_min_max \
+  /usr/include/c++/iterator /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/include/c++/map /usr/include/c++/__tree /usr/include/c++/vector \
+  /usr/include/c++/__split_buffer \
+  /usr/src/external/bsd/kyua-cli/dist/utils/fs/path.hpp \
+  /usr/include/c++/fstream /usr/include/c++/sstream \
+  /usr/include/c++/stack /usr/include/c++/deque \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/noncopyable.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/sanity.hpp \
+  /usr/src/external/bsd/kyua-cli/lib/utils/defs.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp
+units.ln units.go units.pico units.po units.o: /usr/src/external/bsd/kyua-cli/dist/utils/units.cpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/units.hpp \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/c++/istream /usr/include/c++/__config \
+  /usr/include/sys/endian.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/fd_set.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/c++/ostream /usr/include/c++/ios /usr/include/c++/iosfwd \
+  /usr/include/wchar.h /usr/include/sys/null.h /usr/include/stdio.h \
+  /usr/include/c++/__locale /usr/include/c++/string \
+  /usr/include/c++/cstring /usr/include/string.h /usr/include/strings.h \
+  /usr/include/c++/cstdio /usr/include/c++/cwchar \
+  /usr/include/c++/cwctype /usr/include/c++/cctype /usr/include/ctype.h \
+  /usr/include/sys/ctype_bits.h /usr/include/wctype.h \
+  /usr/include/c++/algorithm /usr/include/c++/initializer_list \
+  /usr/include/c++/cstddef \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h \
+  /usr/include/c++/type_traits /usr/include/c++/utility \
+  /usr/include/c++/__tuple /usr/include/c++/__tuple_03 \
+  /usr/include/c++/memory /usr/include/c++/typeinfo \
+  /usr/include/c++/exception /usr/include/c++/cstdint \
+  /usr/include/c++/new /usr/include/c++/limits \
+  /usr/include/c++/__undef_min_max /usr/include/c++/iterator \
+  /usr/include/c++/__functional_base \
+  /usr/include/c++/__functional_base_03 /usr/include/c++/tuple \
+  /usr/include/c++/stdexcept /usr/include/c++/mutex \
+  /usr/include/c++/__mutex_base /usr/include/c++/chrono \
+  /usr/include/c++/ctime /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/c++/ratio /usr/include/c++/climits \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/c++/system_error /usr/include/c++/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/minix/mthread.h /usr/include/minix/config.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/const.h \
+  /usr/include/machine/archconst.h /usr/include/ucontext.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/stdlib.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/c++/functional \
+  /usr/include/c++/__functional_03 /usr/include/locale.h \
+  /usr/include/c++/streambuf /usr/include/c++/locale \
+  /usr/include/c++/cstdarg \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/include/c++/cstdlib /usr/include/nl_types.h \
+  /usr/include/c++/bitset /usr/include/c++/__bit_reference \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/macros.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/format/formatter.hpp \
+  /usr/include/c++/sstream \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/exceptions.hpp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.ipp \
+  /usr/src/external/bsd/kyua-cli/dist/utils/text/operations.hpp \
+  /usr/include/c++/vector /usr/include/c++/__split_buffer

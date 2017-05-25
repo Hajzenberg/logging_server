@@ -1,0 +1,434 @@
+arch.ln arch.go arch.pico arch.po arch.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/arch.c \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/arch.in
+att.ln att.go att.pico att.po att.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/att.c \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/att.in
+eqn.ln eqn.go eqn.pico eqn.po eqn.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/eqn.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdio.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libroff.h
+lib.ln lib.go lib.pico lib.po lib.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/lib.c \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/lib.in
+man.ln man.go man.pico man.po man.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/stdlib.h \
+  /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libman.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h
+man_hash.ln man_hash.go man_hash.pico man_hash.po man_hash.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man_hash.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libman.h
+man_macro.ln man_macro.go man_macro.pico man_macro.po man_macro.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man_macro.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libman.h
+man_validate.ln man_validate.go man_validate.pico man_validate.po man_validate.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man_validate.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libman.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h
+mandoc.ln mandoc.go mandoc.pico mandoc.po mandoc.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h
+mdoc.ln mdoc.go mdoc.pico mdoc.po mdoc.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h /usr/include/stdio.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/time.h /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h
+mdoc_argv.ln mdoc_argv.go mdoc_argv.pico mdoc_argv.po mdoc_argv.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc_argv.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h /usr/include/stdlib.h \
+  /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h
+mdoc_hash.ln mdoc_hash.go mdoc_hash.pico mdoc_hash.po mdoc_hash.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc_hash.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdlib.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h
+mdoc_macro.ln mdoc_macro.go mdoc_macro.pico mdoc_macro.po mdoc_macro.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc_macro.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/time.h /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h
+mdoc_man.ln mdoc_man.go mdoc_man.pico mdoc_man.po mdoc_man.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc_man.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/sys/null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/main.h
+mdoc_validate.ln mdoc_validate.go mdoc_validate.pico mdoc_validate.po mdoc_validate.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc_validate.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/assert.h /usr/include/sys/null.h /usr/include/ctype.h \
+  /usr/include/sys/ctype_inline.h /usr/include/sys/ctype_bits.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/time.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h
+msec.ln msec.go msec.pico msec.po msec.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/msec.c \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/msec.in
+read.ln read.go read.pico read.po read.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/read.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/fcntl.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/pkg/bin/../lib/clang/3.4/include/stdarg.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/man.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/main.h
+roff.ln roff.go roff.pico roff.po roff.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/roff.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdio.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/string.h /usr/include/strings.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libroff.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/predefs.in
+st.ln st.go st.pico st.po st.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/st.c \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/st.in
+tbl.ln tbl.go tbl.pico tbl.po tbl.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/tbl.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/stdio.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libroff.h
+tbl_data.ln tbl_data.go tbl_data.pico tbl_data.po tbl_data.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/tbl_data.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libroff.h
+tbl_layout.ln tbl_layout.go tbl_layout.pico tbl_layout.po tbl_layout.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/tbl_layout.c \
+  /usr/include/assert.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/null.h \
+  /usr/include/ctype.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libroff.h
+tbl_opts.ln tbl_opts.go tbl_opts.pico tbl_opts.po tbl_opts.o: \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/tbl_opts.c \
+  /usr/include/ctype.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ctype_inline.h \
+  /usr/include/sys/ctype_bits.h /usr/include/stdio.h \
+  /usr/include/sys/ansi.h /usr/include/machine/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/sys/null.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libroff.h
+vol.ln vol.go vol.pico vol.po vol.o: /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/vol.c \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/sys/null.h \
+  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/mandoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/libmdoc.h \
+  /usr/src/external/bsd/mdocml/lib/libmandoc/../../dist/vol.in

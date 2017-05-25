@@ -1,0 +1,1 @@
+dummy.ln dummy.go dummy.pico dummy.po dummy.o: /usr/src/usr.bin/ldd/elf32_compat/../dummy.c
