@@ -61,8 +61,10 @@
 #define DS_PROC_NR   ((endpoint_t) 6)   /* data store server */
 #define MFS_PROC_NR  ((endpoint_t) 7)   /* minix root filesystem */
 #define VM_PROC_NR   ((endpoint_t) 8)   /* memory server */
-#define PFS_PROC_NR  ((endpoint_t) 9)  /* pipe filesystem */
-#define LAST_SPECIAL_PROC_NR	10	/* An untyped version for
+#define PFS_PROC_NR  ((endpoint_t) 9)   /* pipe filesystem */
+#define LS_PROC_NR  ((endpoint_t)10)    /* logger */
+#define PS_PROC_NR  ((endpoint_t)11)    /* polling */
+#define LAST_SPECIAL_PROC_NR	12	/* An untyped version for
                                            computation in macros.*/
 #define INIT_PROC_NR ((endpoint_t) LAST_SPECIAL_PROC_NR)  /* init
                                                         -- goes multiuser */
@@ -481,6 +483,26 @@
 #define DS_SNAPSHOT	(DS_RQ_BASE + 5)	/* take a snapshot */
 #define DS_RETRIEVE_LABEL  (DS_RQ_BASE + 6)	/* retrieve label's name */
 #define DS_GETSYSINFO	(DS_RQ_BASE + 7)	/* get system information */
+
+/*===========================================================================*
+ *                Messages for the Polling Server			     *
+ *===========================================================================*/
+
+#define PS_RQ_BASE		0x1700
+
+#define PS_HELLO	(PS_RQ_BASE + 0)	/* hello polling */
+
+/*===========================================================================*
+ *                Messages for the Logger Server			     *
+ *===========================================================================*/
+
+#define LS_RQ_BASE		0x1800
+
+#define LS_HELLO	(LS_RQ_BASE + 0)	/* hello logger */
+#define LS_MAKE_CNT	(LS_RQ_BASE + 1)	/* logger */
+#define LS_INC_CNT	(LS_RQ_BASE + 2)	/* logger */
+#define LS_GET_CNT	(LS_RQ_BASE + 3)	/* logger */
+
 
 /*===========================================================================*
  *                Messages used between PM and VFS			     *

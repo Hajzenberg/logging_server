@@ -23,6 +23,8 @@ struct boot_image_priv boot_image_priv_table[] = {
 {TTY_PROC_NR,  "tty",    SRV_F  },
 {MEM_PROC_NR,  "memory", SRV_F  },
 {MFS_PROC_NR,"fs_imgrd", SRV_F  },
+{LS_PROC_NR,   "ls",     SRV_F  },
+{PS_PROC_NR,   "ps",     SRV_F  },
 {PFS_PROC_NR,  "pfs",    SRV_F  },
 {INIT_PROC_NR, "init",   USR_F  },
 {NULL_BOOT_NR, "",       0,     } /* null entry */
