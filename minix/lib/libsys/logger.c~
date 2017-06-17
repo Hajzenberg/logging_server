@@ -1,0 +1,15 @@
+#include <lib.h>
+#include <string.h>
+
+
+int ls_make_counter(char* cnt_name){
+
+	message m;
+	memset(&m, 0, sizeof(m));
+
+	strcpy(m.m_m3.m3ca1, cnt_name);
+
+	retrurn _syscall(LS_PROC_NR, LS_MAKE_CNT, &m);
+
+
+}

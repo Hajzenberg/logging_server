@@ -491,6 +491,9 @@
 #define PS_RQ_BASE		0x1700
 
 #define PS_HELLO	(PS_RQ_BASE + 0)	/* hello polling */
+#define PS_START	(PS_RQ_BASE + 1)	/* hello polling */
+#define PS_STOP	(PS_RQ_BASE + 2)	/* hello polling */
+#define PS_SNOOZE	(PS_RQ_BASE + 3)	/* hello polling */
 
 /*===========================================================================*
  *                Messages for the Logger Server			     *
@@ -499,9 +502,11 @@
 #define LS_RQ_BASE		0x1800
 
 #define LS_HELLO	(LS_RQ_BASE + 0)	/* hello logger */
-#define LS_MAKE_CNT	(LS_RQ_BASE + 1)	/* logger */
-#define LS_INC_CNT	(LS_RQ_BASE + 2)	/* logger */
-#define LS_GET_CNT	(LS_RQ_BASE + 3)	/* logger */
+#define LS_START_LOG	(LS_RQ_BASE + 1)	/* logger */
+#define LS_SET_LOGGER_LEVEL	(LS_RQ_BASE + 2)	/* logger */
+#define LS_WRITE_LOG	(LS_RQ_BASE + 3)	/* logger */
+#define LS_CLOSE_LOG	(LS_RQ_BASE + 4)	/* logger */
+#define LS_CLEAR_LOGS	(LS_RQ_BASE + 5)	/* logger */
 
 
 /*===========================================================================*

@@ -13,6 +13,7 @@ CFLAGS+=	-fno-builtin
 .include "arch/${MACHINE_ARCH}/Makefile.inc"
 
 SRCS+=  \
+	alarm.c \
 	alloc_util.c \
 	assert.c \
 	asynsend.c \
@@ -33,6 +34,7 @@ SRCS+=  \
 	kprintf.c \
 	kputc.c \
 	kputs.c \
+	logger.c \
 	mapdriver.c \
 	optset.c \
 	panic.c \

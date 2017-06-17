@@ -261,7 +261,16 @@ int sys_setmcontext(endpoint_t proc, vir_bytes mcp);
 /* input */
 int tty_input_inject(int type, int code, int val);
 
+
 /* Miscellaneous calls from servers and drivers. */
+int start_log(char *logger);
+int set_logger_level(char *logger, int level);
+int write_log(char *logger, char *message, int level);
+int close_log(char *logger);
+int clear_logs(char *logger);
+int start_alarm(char *time);
+int stop_alarm(void);
+int snooze(void);
 pid_t srv_fork(uid_t reuid, gid_t regid);
 int srv_kill(pid_t pid, int sig);
 int getprocnr(pid_t pid, endpoint_t *proc_ep);

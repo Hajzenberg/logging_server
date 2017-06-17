@@ -10,6 +10,8 @@
 
 #include "inc.h"	/* include master header file */
 #include <minix/endpoint.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /* U PROTO.H SU EKSPOZOVANE FUNKCIJE */
 
@@ -47,24 +49,30 @@ int main(int argc, char **argv)
       get_work(&m);
 
       if (is_notify(callnr)) {
-          printf("DS: warning, got illegal notify from: %d\n", m.m_source);
+          printf("LS: warning, got illegal notify from: %d\n", m.m_source);
           result = EINVAL;
           goto send_reply;
       }
 
       switch (callnr) {
       case LS_HELLO:
-          result = 333;
+          result = 999;
           break;
-      case LS_MAKE_CNT:
-	  result = do_make_counter(&m);
+      case LS_START_LOG:
+	  result = do_start_log(&m);
 	  break;
-      case LS_INC_CNT:
-	  result = do_increment_counter(&m);
+      case LS_SET_LOGGER_LEVEL:
+	  result = do_set_logger_level(&m);
 	  break;
-      case LS_GET_CNT:
-	  result = do_get_counter(&m);
+      case LS_WRITE_LOG:
+	  result = do_write_log(&m);
 	  break;
+      case LS_CLOSE_LOG:
+      result = do_close_log(&m);
+      break;
+      case LS_CLEAR_LOGS:
+      result = do_clear_logs(&m);
+      break;
       default: 
           printf("LS: warning, got illegal request from %d\n", m.m_source);
           result = EINVAL;

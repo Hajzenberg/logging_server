@@ -7,9 +7,11 @@
 int main(int argc, char **argv);
 
 /* logger.c */
-int do_make_counter(message *m_ptr);
-int do_increment_counter(message *m_ptr);
-int do_get_counter(message *m_ptr);
+int do_start_log(message *m_ptr);
+int do_set_logger_level(message *m_ptr);
+int do_write_log(message *m_ptr);
+int do_close_log(message *m_ptr);
+int do_clear_logs(message *m_ptr);
 int sef_cb_init_fresh(int type, sef_init_info_t *info);
 
 #endif

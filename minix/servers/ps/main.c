@@ -54,24 +54,15 @@ int main(int argc, char **argv)
       case PS_HELLO:
           result = 555;
           break;
-      case DS_RETRIEVE:
-	  result = do_retrieve(&m);
-	  break;
-      case DS_RETRIEVE_LABEL:
-	  result = do_retrieve_label(&m);
-	  break;
-      case DS_DELETE:
-	  result = do_delete(&m);
-	  break;
-      case DS_SUBSCRIBE:
-	  result = do_subscribe(&m);
-	  break;
-      case DS_CHECK:
-	  result = do_check(&m);
-	  break;
-      case DS_GETSYSINFO:
-	  result = do_getsysinfo(&m);
-	  break;
+      case PS_START:
+                result = do_start_alarm(&m);
+                break;
+      case PS_SNOOZE:
+                result = do_snooze(&m);
+                break;
+      case PS_STOP:
+                result = do_stop_alarm(&m);
+                break;
       default: 
           printf("DS: warning, got illegal request from %d\n", m.m_source);
           result = EINVAL;

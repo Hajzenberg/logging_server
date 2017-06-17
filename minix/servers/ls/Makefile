@@ -6,3 +6,4 @@ DPADD+=	${LIBSYS}
 LDADD+=	-lsys
 
 .include <minix.service.mk>
+.include "Makefile.inc"

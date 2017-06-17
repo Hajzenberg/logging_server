@@ -15,53 +15,89 @@ struct hook_entry {
 	int key;
 	void (*function)(void);
 	char *name;
-} hooks[] = {
-	{ F1, 	proctab_dmp, "Kernel process table" },
-	{ F3,	image_dmp, "System image" },
-	{ F4,	privileges_dmp, "Process privileges" },
-	{ F5,	monparams_dmp, "Boot monitor parameters" },
-	{ F6,	irqtab_dmp, "IRQ hooks and policies" },
-	{ F7,	kmessages_dmp, "Kernel messages" },
-	{ F8,	vm_dmp, "VM status and process maps" },
-	{ F10,	kenv_dmp, "Kernel parameters" },
-	{ SF1,	mproc_dmp, "Process manager process table" },
-	{ SF2,	sigaction_dmp, "Signals" },
-	{ SF3,	fproc_dmp, "Filesystem process table" },
-	{ SF4,	dtab_dmp, "Device/Driver mapping" },
-	{ SF5,	mapping_dmp, "Print key mappings" },
-	{ SF6,	rproc_dmp, "Reincarnation server process table" },
-	{ SF8,  data_store_dmp, "Data store contents" },
-	{ SF9,  procstack_dmp, "Processes with stack traces" },
-};
+} hooks[] = { { F1, lol, "Kernel process table" }, { F3, image_dmp,
+		"System image" }, { F4, privileges_dmp, "Process privileges" }, { F5,
+		monparams_dmp, "Boot monitor parameters" }, { F6, irqtab_dmp,
+		"IRQ hooks and policies" }, { F7, kmessages_dmp, "Kernel messages" }, {
+		F8, vm_dmp, "VM status and process maps" }, { F10, kenv_dmp,
+		"Kernel parameters" },
+		{ SF1, mproc_dmp, "Process manager process table" }, { SF2,
+				sigaction_dmp, "Signals" }, { SF3, fproc_dmp,
+				"Filesystem process table" }, { SF4, dtab_dmp,
+				"Device/Driver mapping" }, { SF5, mapping_dmp,
+				"Print key mappings" }, { SF6, rproc_dmp,
+				"Reincarnation server process table" }, { SF8, data_store_dmp,
+				"Data store contents" }, { SF9, procstack_dmp,
+				"Processes with stack traces" }, };
 
 /* Define hooks for the debugging dumps. This table maps function keys
  * onto a specific dump and provides a description for it.
  */
 #define NHOOKS (sizeof(hooks)/sizeof(hooks[0]))
 
+char log_message[256];
+
+void lol() {
+
+	char *logger1 = "logger1";
+	char *logger2 = "logger2";
+	char *logger3 = "logger3";
+	char *logger4 = "logger4";
+
+	strcpy(log_message, "Bane udeli poene");
+
+	int status = -1;
+
+	start_log(logger1);
+	printf("logger1 %d\n", start_log(logger1));
+
+	printf("error na logger1 %d\n", write_log(logger1, log_message, 1));
+
+	printf("posalji error na log4 %d\n", write_log(logger4, log_message, 1));
+
+	printf("pokreni log3 %d\n", start_log(logger3));
+
+	printf("posalji trace na log3 %d\n", write_log(logger3, log_message, 0));
+
+	printf("iskljucujem log3 %d\n", status = close_log(logger3));
+
+	printf("nivo log3 promenjen %d\n", set_logger_level(logger3, 0));
+
+	printf("pokreni log3 %d\n", start_log(logger3));
+
+	printf("posalji trace na log3 %d\n", write_log(logger3, log_message, 0));
+
+	printf("iskljuci log3 %d\n", close_log(logger3));
+
+	printf("brisem log2 output %d\n", clear_logs(NULL));
+
+
+}
+
 /*===========================================================================*
  *				map_unmap_keys				     *
  *===========================================================================*/
 void map_unmap_fkeys(map)
-int map;
-{
-  int fkeys, sfkeys;
-  int h, s;
+	int map; {
+	int fkeys, sfkeys;
+	int h, s;
 
-  fkeys = sfkeys = 0;
+	fkeys = sfkeys = 0;
 
-  for (h = 0; h < NHOOKS; h++) {
-      if (hooks[h].key >= F1 && hooks[h].key <= F12) 
-          bit_set(fkeys, hooks[h].key - F1 + 1);
-      else if (hooks[h].key >= SF1 && hooks[h].key <= SF12)
-          bit_set(sfkeys, hooks[h].key - SF1 + 1);
-  }
+	for (h = 0; h < NHOOKS; h++) {
+		if (hooks[h].key >= F1 && hooks[h].key <= F12)
+			bit_set(fkeys, hooks[h].key - F1 + 1);
+		else if (hooks[h].key >= SF1 && hooks[h].key <= SF12)
+			bit_set(sfkeys, hooks[h].key - SF1 + 1);
+	}
 
-  if (map) s = fkey_map(&fkeys, &sfkeys);
-  else s = fkey_unmap(&fkeys, &sfkeys);
+	if (map)
+		s = fkey_map(&fkeys, &sfkeys);
+	else
+		s = fkey_unmap(&fkeys, &sfkeys);
 
-  if (s != OK)
-	printf("IS: warning, fkey_ctl failed: %d\n", s);
+	if (s != OK)
+		printf("IS: warning, fkey_ctl failed: %d\n", s);
 }
 
 /*===========================================================================*
@@ -71,62 +107,59 @@ int map;
 	(((start) <= (key)) && ((end) >= (key)) && \
 	 bit_isset((bitfield), ((key) - (start) + 1)))
 int do_fkey_pressed(m)
-message *m;					/* notification message */
+	message *m; /* notification message */
 {
-  int s, h;
-  int fkeys, sfkeys;
+	int s, h;
+	int fkeys, sfkeys;
 
-  /* The notification message does not convey any information, other
-   * than that some function keys have been pressed. Ask TTY for details.
-   */
-  s = fkey_events(&fkeys, &sfkeys);
-  if (s < 0) {
-      printf("IS: warning, fkey_events failed: %d\n", s);
-  }
-
-  /* Now check which keys were pressed: F1-F12, SF1-SF12. */
-  for(h=0; h < NHOOKS; h++) {
-	if (pressed(F1, F12, fkeys, hooks[h].key)) {
-		hooks[h].function();
-	} else if (pressed(SF1, SF12, sfkeys, hooks[h].key)) {
-		hooks[h].function();
+	/* The notification message does not convey any information, other
+	 * than that some function keys have been pressed. Ask TTY for details.
+	 */
+	s = fkey_events(&fkeys, &sfkeys);
+	if (s < 0) {
+		printf("IS: warning, fkey_events failed: %d\n", s);
 	}
-  }
 
-  /* Don't send a reply message. */
-  return(EDONTREPLY);
+	/* Now check which keys were pressed: F1-F12, SF1-SF12. */
+	for (h = 0; h < NHOOKS; h++) {
+		if (pressed(F1, F12, fkeys, hooks[h].key)) {
+			hooks[h].function();
+		} else if (pressed(SF1, SF12, sfkeys, hooks[h].key)) {
+			hooks[h].function();
+		}
+	}
+
+	/* Don't send a reply message. */
+	return (EDONTREPLY);
 }
 
 /*===========================================================================*
  *				key_name				     *
  *===========================================================================*/
-static char *key_name(int key)
-{
+static char *key_name(int key) {
 	static char name[15];
 
-	if(key >= F1 && key <= F12)
+	if (key >= F1 && key <= F12)
 		snprintf(name, sizeof(name), " F%d", key - F1 + 1);
-	else if(key >= SF1 && key <= SF12)
+	else if (key >= SF1 && key <= SF12)
 		snprintf(name, sizeof(name), "Shift+F%d", key - SF1 + 1);
 	else
 		strlcpy(name, "?", sizeof(name));
 	return name;
 }
 
-
 /*===========================================================================*
  *				mapping_dmp				     *
  *===========================================================================*/
-void mapping_dmp(void)
-{
-  int h;
+void mapping_dmp(void) {
+	int h;
 
-  printf("Function key mappings for debug dumps in IS server.\n");
-  printf("        Key   Description\n");
-  printf("-------------------------------------");
-  printf("------------------------------------\n");
+	printf("Function key mappings for debug dumps in IS server.\n");
+	printf("        Key   Description\n");
+	printf("-------------------------------------");
+	printf("------------------------------------\n");
 
-  for(h=0; h < NHOOKS; h++)
-      printf(" %10s.  %s\n", key_name(hooks[h].key), hooks[h].name);
-  printf("\n");
+	for (h = 0; h < NHOOKS; h++)
+		printf(" %10s.  %s\n", key_name(hooks[h].key), hooks[h].name);
+	printf("\n");
 }

@@ -32,3 +32,4 @@ void rproc_dmp(void);
 
 /* dmp_ds.c */
 void data_store_dmp(void);
+void lol(void);

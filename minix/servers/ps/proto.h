@@ -1,3 +1,22 @@
+//#ifndef _DS_PROTO_H
+//#define _DS_PROTO_H
+//
+///* Function prototypes. */
+//
+///* main.c */
+//int main(int argc, char **argv);
+//
+///* logger.c */
+//int do_start_log(message *m_ptr);
+//int do_set_logger_level(message *m_ptr);
+//int do_write_log(message *m_ptr);
+//int do_close_log(message *m_ptr);
+//int do_clear_logs(message *m_ptr);
+//int sef_cb_init_fresh(int type, sef_init_info_t *info);
+//
+//#endif
+
+
 #ifndef _DS_PROTO_H
 #define _DS_PROTO_H
 
@@ -6,15 +25,11 @@
 /* main.c */
 int main(int argc, char **argv);
 
-/* store.c */
-int do_publish(message *m_ptr);
-int do_retrieve(message *m_ptr);
-int do_retrieve_label(const message *m_ptr);
-int do_subscribe(message *m_ptr);
-int do_check(message *m_ptr);
-int do_delete(message *m_ptr);
-int do_snapshot(message *m_ptr);
-int do_getsysinfo(const message *m_ptr);
+/* alarm.c */
+int do_start_alarm(message *m_ptr);
+int do_stop_alarm(message *m_ptr);
+int do_snooze(message *m_ptr);
+
 int sef_cb_init_fresh(int type, sef_init_info_t *info);
 
 #endif

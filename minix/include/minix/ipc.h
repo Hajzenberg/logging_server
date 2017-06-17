@@ -14,6 +14,12 @@
 #define M_PATH_STRING_MAX  40
 
 typedef struct {
+	int length, level, gid;
+	char name[44];
+} mess_log;
+_ASSERT_MSG_SIZE(mess_log);
+
+typedef struct {
 	uint8_t data[56];
 } mess_u8;
 _ASSERT_MSG_SIZE(mess_u8);
@@ -2027,6 +2033,8 @@ typedef struct {
 	endpoint_t m_source;		/* who sent the message */
 	int m_type;			/* what kind of message is it */
 	union {
+		mess_log		m_log;
+
 		mess_u8			m_u8;
 		mess_u16		m_u16;
 		mess_u32		m_u32;

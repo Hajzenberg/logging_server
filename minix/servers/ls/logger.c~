@@ -1,0 +1,507 @@
+#include "inc.h"
+#include <stdio.h>
+#include "../pm/mproc.h"
+
+//u store.c se nalaza neke funkcije kojima se dobija process name iz struktura koje
+//on ima u sebi, moze nam biti korisno kad mi budemo radili nas logger
+
+//1:08:35 bane prica kako dohvatiti proces na osnovu endpointa
+
+#define MAX_COUNT 20
+#define MAX_NAME 20
+#define MAX_PUTANJA 20
+#define MAX_FORMAT 30
+
+void parse(void);
+void lazy_init(void);
+int find_index(char* logger);
+
+struct logger {
+	char name[MAX_NAME];
+	int type; //f o e
+	char path[MAX_PUTANJA];
+	int level; //t d e
+	char format[MAX_FORMAT];
+	int append; // 1 0
+	int running; //1 0	//ne parsira se
+	int proc_nr;        //ne parsira se
+	endpoint_t current_proc;
+} loggers[MAX_COUNT];
+
+int LoggersCount = 0;
+int init = 0;
+
+int FILE_TYPE = 0;
+int OUT_TYPE = 1;
+int ERROR_TYPE = 2;
+int TRACE_LEVEL = 0;
+int DEBUG_LEVEL = 1;
+int ERROR_LEVEL = 2;
+
+int do_start_log(message *m_ptr) {
+
+	printf("DEUBG CALLER PROC NR %d\n ",_ENDPOINT_P(m_ptr -> m_source));
+
+//	freopen ("/root/kill.txt", "w", stdout);
+//		int ret = fprintf(stdout,"HELLO BRE FPRINTF\n");
+//		fflush(stdout);
+//printf("RETVALUE FPRINTFA JE %d\n", ret);
+//fflush(stdout);
+
+
+	lazy_init();
+
+	int index = 0;
+	char name[44];
+	strcpy(name, m_ptr->m_m3.m3ca1);
+
+	index = find_index(name);
+
+	if (index == -1) {
+		//nepostojeci logger
+	}
+
+	if (loggers[index].running) {
+		//logovanje vec zapoceto
+	}
+
+	//interna greska?
+
+	// podesavamo da je running
+	loggers[index].running = 1;
+	loggers[index].current_proc = m_ptr->m_source;
+
+	for (i = 0; i < LoggersCount; i++) {
+		printf("%s\n", loggers[i].name);
+		printf("%d\n", loggers[i].type);
+		printf("%s\n", loggers[i].path);
+		printf("%d\n", loggers[i].level);
+		printf("%s\n", loggers[i].format);
+		printf("%d\n", loggers[i].append);
+		printf("%d\n", loggers[i].running);
+		printf("%d\n", loggers[i].current_proc);
+	}
+
+
+	/* magicni kod za dobijanje imena procesa */
+//	struct mproc t[256];
+//
+//	getsysinfo(PM_PROC_NR, SI_PROC_TAB, &t, sizeof(t));
+//
+//	printf("HELLO %s\n", t[_ENDPOINT_P(m_ptr -> m_source)].mp_name);
+	/*kraj*/
+
+	return 111;
+}
+
+int do_set_logger_level(message *m_ptr) {
+
+	lazy_init();
+
+	char *name;
+	strcpy(name,m_ptr-> m_m3.m3ca1);
+	int level=m_ptr->m_m3.m3i1;
+
+	int index=find_index(name);
+
+	if(index == -1){
+		//nije nasao
+
+	}
+
+	if(loggers[index].running != 1){
+		//ako nije pokrenut
+		loggers[index].level=level;
+	}else{
+		//error logger je vec pokrenut
+
+	}
+
+
+	return 222;
+}
+
+int do_write_log(message *m_ptr) {
+
+	lazy_init();
+
+
+
+
+
+	return 333;
+}
+
+int do_close_log(message *m_ptr) {
+
+	lazy_init();
+
+	char *name;
+	strcpy(name,m_ptr->m_m3.m3ca1);
+	int index=find_index(name);
+
+	if(index == -1){
+		//nije pronadjen loger
+	}
+
+	if(loggers[index].running == 0){
+		//pokusava da se zatvroi vec zatvoren loger
+	}
+
+	if(loggers[index].current_proc != m_ptr->m_source){
+		//neko ko nije zapoceo ovaj loger pokusava da ga ugasi
+	}
+
+	loggers[index].running=0;
+
+
+	return 444;
+}
+
+int do_clear_logs(message *m_ptr) {
+
+	int error_running = 0;
+	int error_does_not_exist = 0;
+	int error_system = 0;
+
+	lazy_init();
+
+	if(m_ptr == NULL){
+
+		int i;
+
+		//prolazimo kroz sve logere
+		for(i=0;i<LoggersCount;i++){
+
+			if(loggers[i].type != FILE_TYPE){
+				continue;
+			}
+
+			if (loggers[i].running == 1){
+				error_running = 1;
+				continue;
+			}
+
+			int index = find_index(loggers[i].name);
+
+			//da li postoji?
+			if (index == -1){
+				error_does_not_exist = 1;
+				continue;
+			}
+
+			//sada smo sigurni da mozemo ocistiti log fajl
+
+			int succes = remove(loggers[i].path);
+
+			//remove vraca 0 kad je uspeo
+			if (succes != 0){
+				error_system = 1;
+			}
+		}
+
+		//IF KOJI RETURNUJE PRAVI ERROR NA KRAJU!!!!!!! NA OSNOVU FLAGOVA
+
+	}else{
+
+
+
+	}
+
+
+	return 555;
+}
+
+/* Metofa koja na osnovu imena nalazi indeks logera */
+
+int find_index(char* logger) {
+	printf("Trazim %s\n",logger);
+	int i;
+
+	for (i = 0; i < LoggersCount; i++) {
+		if (strcmp(logger, loggers[i].name) == 0) {//vraca 0 kad su isti
+			return i;
+		}
+	}
+
+	return -1;
+}
+
+char *levelString(int level) {
+	char *pok;
+	switch (level) {
+	case 0:
+		pok = "TRACE";
+		break;
+	case 1:
+		pok = "DEBUG";
+		break;
+	case 2:
+		pok = "ERROR";
+		break;
+	default:
+		pok = "pogresan index";
+		break;
+	}
+	return pok;
+}
+
+char *typeString(int level) {
+	char *pok;
+	switch (level) {
+	case 0:
+		pok = "FILE";
+		break;
+	case 1:
+		pok = "OUT";
+		break;
+	case 2:
+		pok = "ERROR";
+		break;
+	default:
+		pok = "pogresan index";
+		break;
+	}
+	return pok;
+}
+
+int type(char tip) {
+
+	switch (tip) {
+	case 'f':
+		return FILE_TYPE;
+	case 'o':
+		return OUT_TYPE;
+	case 'e':
+		return ERROR_TYPE;
+	}
+
+	return -1;
+
+}
+
+int level(char tip) {
+	switch (tip) {
+	case 'e':
+		return ERROR_LEVEL;
+	case 'd':
+		return DEBUG_LEVEL;
+	case 't':
+		return TRACE_LEVEL;
+	}
+
+	return -1;
+}
+
+void parseLogers(char *text) {
+
+	int len = sizeof(text);
+	int niz[5];
+
+	int i, j;
+	i = 0;
+	j = 0;
+
+	while (text[i] != '\0') {
+		if (text[i] == ';') {
+			niz[j++] = i;
+		}
+		i++;
+	}
+	j = 0;
+	int k;
+	for (i = 0; i < 6; i++) {
+
+		switch (i) {
+		case 0:
+			printf("Ime: ");
+			for (k = 0; k < niz[i]; k++) {
+				loggers[LoggersCount].name[k] = text[j + k];
+				printf("%c", text[j + k]);
+			}
+			printf("\n");
+			break;
+		case 1:
+			printf("Type:%c", text[j]);
+			loggers[LoggersCount].type = type(text[j]);
+			printf("\n");
+			break;
+
+		case 2:
+			printf("path: ");
+			for (k = 0; k < niz[i] - niz[i - 1] - 1; k++) {
+				loggers[LoggersCount].path[k] = text[j + k];
+				printf("%c", text[j + k]);
+			}
+			printf("\n");
+			break;
+
+		case 3:
+			printf("level: %c", text[j]);
+			loggers[LoggersCount].level = level(text[j]);
+			printf("\n");
+			break;
+		case 4:
+			printf("format: ");
+			for (k = 0; k < niz[i] - niz[i - 1] - 1; k++) {
+				loggers[LoggersCount].format[k] = text[j + k];
+				printf("%c", text[j + k]);
+			}
+			printf("\n");
+			break;
+		case 5:
+			printf("Append: %c", text[j]);
+			loggers[LoggersCount].append = text[j] - '0';
+			printf("\n");
+			break;
+		}
+
+		j = niz[i] + 1;
+	}
+
+}
+
+void parse() {
+	char *source = NULL;
+	FILE *fp = fopen("/root/log.conf", "r");
+	if (fp != NULL) {
+		/* Go to the end of the file. */
+		if (fseek(fp, 0L, SEEK_END) == 0) {
+			/* Get the size of the file. */
+			long bufsize = ftell(fp);
+			if (bufsize == -1) { /* Error */
+			}
+
+			/* Allocate our buffer to that size. */
+			source = malloc(sizeof(char) * (bufsize + 1));
+
+			/* Go back to the start of the file. */
+			if (fseek(fp, 0L, SEEK_SET) != 0) { /* Error */
+			}
+
+			/* Read the entire file into memory. */
+			size_t newLen = fread(source, sizeof(char), bufsize, fp);
+			if (ferror(fp) != 0) {
+				fputs("Error reading file", stderr);
+			} else {
+				source[newLen++] = '\0'; /* Just to be safe. */
+			}
+		}
+
+		fclose(fp);
+	}
+
+	int count = 0;
+	int od = 0;
+	int len = strlen(source);
+	int lne;
+	char *pok = NULL;
+	int k;
+	int space = 0;
+	int i;
+
+	for (i = 0; i < len; i++) {
+		if (source[i] == '\n') {
+
+			if (pok != NULL) {
+				free(pok);
+			}
+
+			lne = sizeof(char) * (i - od + 1 + 1);
+			pok = (char *) malloc(lne);
+			//kopiramo na novo mesto
+			for (k = 0; k < lne; k++) {
+				pok[k] = source[od + k];
+				if (pok[k] == ' ') {
+					space++; //K ima vrednost vecu za onoliko koliko ima spejsova
+							 // pa mora da oduzmemo te spejsove jer because fuck you that's why
+				}
+			}
+			pok[k - space] = '\0';
+			space = 0;
+			parseLogers(pok);
+			LoggersCount++;
+			printf("--------------------\n");
+			od = i + 1;
+		}
+	}
+
+	printf("IME LOGERA je: %s\n", loggers[0].name);
+
+	free(pok);
+	free(source); /* Don't forget to call free() later! */
+}
+
+void lazy_init() {
+	if (!init) {
+		parse();
+		init = 1;
+	}
+}
+
+//int writeLog(char *imeLogera){
+//
+//    int index; //odredi index
+//    int leve; //iz poruke
+//
+//    if(loggers[index].running == 0){
+//        return -1;
+//    }
+//    if(loggers[index].level > level){
+//        return -1;
+//    }
+//
+//    switch(loggers[index].type){
+//        case 0:
+//        case 1:
+//        case 2:
+//
+//    }
+//
+//}
+
+//int do_make_counter(message *m_ptr){
+//
+//	char *newname = m_ptr -> m_m3.m3ca1;	//pogledaj u ipc.h
+//	strcpy(mycount[currentcount].name, newname);
+//	mycount[currentcount].value = 0;	//tehnicki ne moramo ovo da radimo jer je sve setovano na 0 u sef_cb_init_fresh
+//	currentcount++;
+//
+//	return(OK);
+//}
+//int do_increment_counter(message *m_ptr){
+//
+//	char* toincrement = m_ptr -> m_m3.m3ca1;
+//
+//	int i = 0;
+//
+//	for (i=0; i<currentcount; i++){
+//		if (strcmp(toincrement, mycount[i].name) == 0){	//vraca 0 kad su isti
+//			mycount[i].value++;
+//		}
+//	}
+//
+//	return(OK);
+//}
+//int do_get_counter(message *m_ptr){
+//
+//	char* toincrement = m_ptr -> m_m3.m3ca1;
+//
+//	int i = 0;
+//
+//		for (i=0; i<currentcount; i++){
+//			if (strcmp(toincrement, mycount[i].name) == 0){	//vraca 0 kad su isti
+//				return mycount[i].value;
+//			}
+//		}
+//
+//	return (OK);
+//}
+
+/*===========================================================================*
+ *		            sef_cb_init_fresh                                *
+ *===========================================================================*/
+int sef_cb_init_fresh(int UNUSED( type), sef_init_info_t *info) {
+	memset(loggers, 0, sizeof(loggers));
+	return (OK);
+}
