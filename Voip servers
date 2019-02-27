@@ -1,0 +1,177 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+uil16
+Repositories0
+Code885
+Commits0
+Issues0
+Marketplace0
+Topics0
+Wikis0
+Users0
+Languages
+631 M4Sugar
+207 C
+8 Jupyter Notebook
+2 Makefile
+2 PostScript
+2 SVG
+2 XML
+1 CMake
+1 Markdown
+Advanced search 
+885 code results
+@slayjoker95
+slayjoker95/sys – t_inttypes.c
+Showing the top two matches Last indexed on Jul 11, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@TigerBSD
+TigerBSD/TigerBSD – t_inttypes.c
+Showing the top two matches Last indexed on Jul 4, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@guilherme1905
+guilherme1905/ProjetoMC504 – t_inttypes.c
+Showing the top two matches Last indexed on Jul 15, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@raajtambe
+raajtambe/minix – t_inttypes.c
+Showing the top two matches Last indexed on Jan 21
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@mjerkovi
+mjerkovi/Lottery_Scheduler_FreeBSD – t_inttypes.c
+Showing the top two matches Last indexed on Jul 7, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@g-gaston
+g-gaston/ipcmailbox – t_inttypes.c
+Showing the top two matches Last indexed on Jul 4, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@joneshf
+joneshf/minix – t_inttypes.c
+Showing the top two matches Last indexed on Jun 29, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@Stichting-MINIX-Research-Foundation
+Stichting-MINIX-Research-Foundation/minix – t_inttypes.c
+Showing the top two matches Last indexed on Jun 29, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@gpergrossi
+gpergrossi/CS551_minix_dev – t_inttypes.c
+Showing the top two matches Last indexed on Jul 5, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+@Hajzenberg
+Hajzenberg/logging_server – t_inttypes.c
+Showing the top two matches Last indexed on Jul 8, 2018
+C
+	uint64_t ui64 = 0;
+	uint_least8_t uil8 = 0;
+	uint_least16_t uil16 = 0;
+	uint_least32_t uil32 = 0;
+	uint_least64_t uil64 = 0;
+	PRINT(PRIo32, ui32);
+	PRINT(PRIo64, ui64);
+	PRINT(PRIoLEAST8, uil8);
+	PRINT(PRIoLEAST16, uil16);
+	PRINT(PRIoLEAST32, uil32);
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
